@@ -54,3 +54,4 @@ require('dotenv').config();
 
 
   client.login(process.env.TOKEN).catch(console.error)
+  console.log("Discord Bot Executed");
